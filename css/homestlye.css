@@ -1,0 +1,149 @@
+ .body{
+     background-color: #084d6e;
+     
+ }
+ 
+ .nav {
+    margin: 0;
+    height: 15dvh;
+    display: flex;
+    align-items: normal;
+    background-color: whitesmoke;
+    font-family: 'Poppins' , sans-serif;
+    justify-content:center;
+}
+
+.ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+}
+
+.ul li a{
+    color: #ccc;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    margin: 0 12px;
+    position: relative;
+    transition: all 0.4s ease;
+    font-weight: 500;
+    letter-spacing: 1px
+}
+
+ul li a:hover{
+    background-color: #849773;
+    color:#bc94c2;
+}
+
+ul li a::before,
+ul li a ::after{
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #78909e;
+    opacity: 0;
+    transition: all 0.4s ease;
+}
+
+ul li a::before{
+    bottom: 10px;
+    left: 10px;
+    border-width: 0 0 2px 2px;
+}
+
+ul li a::after {
+    top: 10px;
+    right: 10px;
+    border-width: 2px 2px 0 0;
+}
+
+ul li a:hover::before{
+    opacity: 1;
+    bottom: -8px;
+    left: -8px;
+}
+
+ul li a:hover::after{
+    opacity: 1;
+    top: -8px;
+    right: -8px;
+}
+ .form{
+   display: block;
+   box-sizing: border-box;
+   padding: 40px;
+   width: 60%;
+   height: 100%; 
+   background-color: ;
+   backdrop-filter: brightness(20%);
+   flex-direction: column;
+   display: flex;
+   gap: 0.4px;
+   text-align: center
+  
+   .form container{
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+   }
+   
+  
+ }
+
+ h1{
+   font-weight:unset;
+   font-size: 30px;
+   text-shadow: none;
+   margin-bottom: 60px;
+   text-align: center;
+ }
+
+ label{
+   color: rbga(255, 255, 255, 0.8);
+   text-transform: uppercase;
+   font-size: 10px;
+   letter-spacing: 2px;
+   padding-left: 10px;
+ }
+
+ input{
+   background: #134E5E;
+   height: 40px;
+   line-height: 40px;
+   border-radius: 20px;
+   padding: 0px 20px;
+   border: none;
+   margin-bottom: 20px;
+   color: white;
+   text-decoration: wavy;
+ }
+
+ button{
+   background:fixe;
+   height: 40px;
+   line-height: 40px;
+   border-radius: 40px;
+   border: none;
+   margin: 10px 0px;
+   box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+ }
+
+ div{
+    text-align: center;
+    color: rgb(65, 113, 202);
+    font-size: 14px;
+    margin-top: 20px;
+ }
+
+
+ 
+ 
+
+ 
+ 
+ 
+
