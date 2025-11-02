@@ -3,7 +3,7 @@
      
  }
  
- .nav {
+ nav {
     margin: 0;
     height: 15dvh;
     display: flex;
@@ -13,14 +13,14 @@
     justify-content:center;
 }
 
-.ul {
+ul {
     margin: 0;
     padding: 0;
     display: flex;
     list-style-type: none;
 }
 
-.ul li a{
+ul li a{
     color: #ccc;
     font-size: 18px;
     text-decoration: none;
