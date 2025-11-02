@@ -7,10 +7,12 @@
     margin: 0;
     height: 15dvh;
     display: flex;
-    align-items: normal;
+    align-items: center;
     background-color: whitesmoke;
     font-family: 'Poppins' , sans-serif;
     justify-content:center;
+    background-color:rgb(153, 151, 163);
+    color:cyan;
 }
 
 ul {
